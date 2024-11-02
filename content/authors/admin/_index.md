@@ -3,7 +3,7 @@
 title: Amit Raj Pant
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation:  Amit Pant
 
 # Full name (for SEO)
 first_name: Amit Raj
@@ -48,8 +48,11 @@ profiles:
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Deep Learning
+  - Machine Learning
+  - Astrophysics
+  - Natural Language Processing
+  - EfficientML
 
 education:
   - area: Bachelor's in Computer Engineering
@@ -143,11 +146,9 @@ skills:
 
 languages:
   - name: English
-    percent: 100
-  - name: Chinese
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Nepali
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +184,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am Amit Pant.
