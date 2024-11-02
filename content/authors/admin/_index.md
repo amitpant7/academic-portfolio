@@ -3,7 +3,7 @@
 title: Amit Raj Pant
 
 # Name pronunciation (optional)
-name_pronunciation:  Amit Pant
+# name_pronunciation:  Amit Pant
 
 # Full name (for SEO)
 first_name: Amit Raj
