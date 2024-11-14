@@ -99,33 +99,79 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: ''
+        description: Proficiency in Python for data science, ML.
         percent: 80
         icon: code-bracket
       - name: Data Science
-        description: ''
+        description: Expertise in data preprocessing, analysis, and model development using libraries like Pandas, NumPy, and Scikit-learn.
         percent: 100
         icon: chart-bar
       - name: SQL
-        description: ''
+        description: Database querying, design, and optimization.
         percent: 40
         icon: circle-stack
+      - name: C++
+        description: 'Experince in deploying deep learning networks in C++ for edge computing.'
+        percent: 70
+        icon: code-bracket
+      - name: Flask
+        description: Experience in developing web applications with Flask.
+        percent: 70
+        icon: code-bracket
+      - name: PyTorch & TensorFlow 
+        description: Experince in devloping deep learning models from scratch PyTorch and TensorFlow.
+        percent: 90
+        icon: brain
+
+      - name: HTML/CSS/JavaScript
+        description: Some experience in devloping front-end.
+        percent: 70
+        icon: html5
+      - name: Docker
+        description: Experience in containerizing applications with Docker for deployment and scalability.
+        percent: 60
+        icon: docker
+      - name: Git & GitHub
+        description: Proficient in version control using Git and GitHub for collaborative software development.
+        percent: 80
+        icon: git
+  
+  - name: Soft Skills
+    items:
+      - name: Communication
+        description: Good verbal and written communication skills.
+        percent: 85
+        icon: comment-dots
+      - name: Problem-Solving
+        description: Able to solve complex challenges in software development and data science.
+        percent: 90
+        icon: lightbulb
+      - name: Collaboration
+        description: Experience working in cross-functional teams and collaborating with developers, data scientists, and product managers.
+        percent: 80
+        icon: users
+      - name: Time Management
+        description: Efficient in managing multiple tasks and meeting deadlines in fast-paced environments.
+        percent: 75
+        icon: clock
+      - name: Leadership
+        description: Able to guide teams toward achieving goals, mentor junior developers, and maintain a positive working environment.
+        percent: 70
+        icon: user-tie
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Reading
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Chess
-        description: ''
-        percent: 100
-        icon: chess
+        icon: books
       - name: Guitar
         description: ''
-        percent: 80
         icon: guitar
+      - name: Chess
+        description: ''
+        icon: chess 
 
 languages:
   - name: English
@@ -137,34 +183,30 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# awards:  #TODO make this Certificates section
+#   - title: Neural Networks and Deep Learning
+#     url: https://www.coursera.org/learn/neural-networks-deep-learning
+#     date: '2023-11-25'
+#     awarder: Coursera
+#     icon: coursera
+#     summary: |
+#       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+#   - title: Blockchain Fundamentals
+#     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#     date: '2023-07-01'
+#     awarder: edX
+#     icon: edx
+#     summary: |
+#       Learned:
+#       - Synthesize your own blockchain solutions
+#       - Gain an in-depth understanding of the specific mechanics of Bitcoin
+#       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+#   - title: 'Object-Oriented Programming in R'
+#     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+#     certificate_url: https://www.datacamp.com
+#     date: '2023-01-21'
+#     awarder: datacamp
+#     icon: datacamp
+#     summary: |
+#       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
-
-## About Me
-
-I am Amit Pant.
