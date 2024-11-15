@@ -2,4 +2,4 @@
 My portfolio site developed using hugo.  
 
 
-Visit : [My Portfolio](amitpant.netlify.app)
+Visit : [My Portfolio](https://amitpant.netlify.app/)
