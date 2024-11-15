@@ -111,7 +111,7 @@ skills:
         percent: 40
         icon: circle-stack
       - name: C++
-        description: 'Experince in deploying deep learning networks in C++ for edge computing.'
+        description: 'Experince in deploying deep networks in C++ for edge computing.'
         percent: 70
         icon: code-bracket
       - name: Flask
@@ -174,39 +174,49 @@ skills:
         icon: chess 
 
 languages:
-  - name: English
-    percent: 75
   - name: Nepali
     percent: 100
+  - name: English
+    percent: 75
+  - name: Hindi
+    percent: 50
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-# awards:  #TODO make this Certificates section
-#   - title: Neural Networks and Deep Learning
-#     url: https://www.coursera.org/learn/neural-networks-deep-learning
-#     date: '2023-11-25'
-#     awarder: Coursera
-#     icon: coursera
-#     summary: |
-#       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-#   - title: Blockchain Fundamentals
-#     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-#     date: '2023-07-01'
-#     awarder: edX
-#     icon: edx
-#     summary: |
-#       Learned:
-#       - Synthesize your own blockchain solutions
-#       - Gain an in-depth understanding of the specific mechanics of Bitcoin
-#       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-#   - title: 'Object-Oriented Programming in R'
-#     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-#     certificate_url: https://www.datacamp.com
-#     date: '2023-01-21'
-#     awarder: datacamp
-#     icon: datacamp
-#     summary: |
-#       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+
+certificates:
+  - title: Deep Learning Specialization
+    institution: Coursera (offered by Andrew Ng, Deeplearning.ai)
+    date: '2023-05-01'
+    url: https://www.coursera.org/account/accomplishments/specialization/certificate_code
+    summary: |
+      Completed a comprehensive deep learning specialization covering neural networks, convolutional networks, sequence models, and more.
+  - title: Machine Learning
+    institution: Stanford University (Coursera)
+    date: '2022-12-15'
+    url: https://www.coursera.org/account/accomplishments/certificate/certificate_code
+    summary: |
+      Gained foundational knowledge in supervised, unsupervised, and reinforcement learning, as well as popular algorithms and techniques.
+      
+  - title: Advanced Mathematics for AI
+    institution: Khan Academy
+    date: '2023-03-10'
+    url: https://example.com
+    summary: |
+      Studied advanced mathematics topics essential for AI, including linear algebra, calculus, and probability.
+
+awards:
+  - title: LOCUS 2024 Winner
+    url: https://example.com
+    date: '2023-11-25'
+    awarder: LOCUS, IOE Pulchowk
+    summary: |
+      LOCUS is national competition/event for Electrical , Electronics and Computer Engineering Students held anually in IOE Pulchowk Campus.
+  - title: Logictronix Annual FPGA Project Grant Winner
+    url: https://example.com
+    date: '2023-07-01'
+    awarder: Logictronix Ltd.
+    summary: |
+      Awarded for excellence in FPGA-based project development
+
 ---
+## About Me
+I am a Computer Engineering Grauate from Institute of Engineering,  Thapathali Campus, Tribhuwan University . I am interested in Artificial Intelligence and currently looking for MS/Phd in AI or Computer Science.
