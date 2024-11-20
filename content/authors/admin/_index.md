@@ -181,28 +181,6 @@ languages:
   - name: Hindi
     percent: 50
 
-
-certificates:
-  - title: Deep Learning Specialization
-    institution: Coursera (offered by Andrew Ng, Deeplearning.ai)
-    date: '2023-05-01'
-    url: https://www.coursera.org/account/accomplishments/specialization/certificate_code
-    summary: |
-      Completed a comprehensive deep learning specialization covering neural networks, convolutional networks, sequence models, and more.
-  - title: Machine Learning
-    institution: Stanford University (Coursera)
-    date: '2022-12-15'
-    url: https://www.coursera.org/account/accomplishments/certificate/certificate_code
-    summary: |
-      Gained foundational knowledge in supervised, unsupervised, and reinforcement learning, as well as popular algorithms and techniques.
-      
-  - title: Advanced Mathematics for AI
-    institution: Khan Academy
-    date: '2023-03-10'
-    url: https://example.com
-    summary: |
-      Studied advanced mathematics topics essential for AI, including linear algebra, calculus, and probability.
-
 awards:
   - title: LOCUS 2024 Winner
     url: https://example.com

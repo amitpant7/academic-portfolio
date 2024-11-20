@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | Amit Pant</title>
+    <link>http://localhost:1313/tags/computer-vision/</link>
+      <atom:link href="http://localhost:1313/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Computer Vision</title>
+      <link>http://localhost:1313/tags/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Nepali Celeb Localized Face Dataset</title>
+      <link>http://localhost:1313/project/face/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/face/</guid>
+      <description>&lt;p&gt;The dataset contains images of 49 famous individuals from Nepal, including actors, actresses, singers, and social figures. The individuals vary in age, gender, and profession.&lt;/p&gt;
+&lt;p&gt;Potential uses for this dataset include face recognition, face detection, emotion recognition, and training machine learning models related to facial analysis.&lt;/p&gt;
+&lt;p&gt;For more details and to access the dataset, visit 
+.&lt;/p&gt;
+&lt;h2 id=&#34;procedure&#34;&gt;Procedure&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Images of the actors were collected from the internet using a Python script.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;bing_image_downloader&lt;/code&gt; package was used to download images.&lt;/li&gt;
+&lt;li&gt;Images were manually verified for quality and unsuitable ones were removed.&lt;/li&gt;
+&lt;li&gt;OpenCV library was used to detect faces and crop images to extract only the face region.&lt;/li&gt;
+&lt;li&gt;The cropped face images were resized to a standard size.&lt;/li&gt;
+&lt;li&gt;Processed images were saved in a separate directory with appropriate naming convention.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in the technical details, you can check out the dataset on Kaggle and review the Python scripts used for data collection and preprocessing.&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

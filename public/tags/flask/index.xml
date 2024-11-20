@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask | Amit Pant</title>
+    <link>http://localhost:1313/tags/flask/</link>
+      <atom:link href="http://localhost:1313/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <description>Flask</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Flask</title>
+      <link>http://localhost:1313/tags/flask/</link>
+    </image>
+    
+    <item>
+      <title>Finance Portfolio Manager</title>
+      <link>http://localhost:1313/project/cs50/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/cs50/</guid>
+      <description>&lt;h2 id=&#34;finance-portfolio-manager&#34;&gt;Finance Portfolio Manager&lt;/h2&gt;
+&lt;p&gt;Developed a Flask web app for stock trading, enabling user registration, querying for stocks, buying, selling, viewing the portfolio, and their transaction history with security features.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

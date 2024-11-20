@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Healthcare AI | Amit Pant</title>
+    <link>http://localhost:1313/tags/healthcare-ai/</link>
+      <atom:link href="http://localhost:1313/tags/healthcare-ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Healthcare AI</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Healthcare AI</title>
+      <link>http://localhost:1313/tags/healthcare-ai/</link>
+    </image>
+    
+    <item>
+      <title>Lung Vision: X-ray-based Classification of Pulmonary Diseases</title>
+      <link>http://localhost:1313/project/lungvision/</link>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/lungvision/</guid>
+      <description>&lt;p&gt;Prepared a dataset containing Normal, Tuberculosis (TB), and Pneumonia lung X-rays, and implemented a Deep Neural Network (DNN) to accurately classify these three categories. The challenge was to tackle the class imbalance inherent in the dataset.&lt;/p&gt;
+&lt;!-- [Github: Pulmonary Classifier](https://github.com/amitpant7/Pulmonary-Classifier)
+
+![Lung Vision](Assets/page1.png) --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

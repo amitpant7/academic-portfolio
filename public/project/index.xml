@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Amit Pant</title>
+    <link>http://localhost:1313/project/</link>
+      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Projects</title>
+      <link>http://localhost:1313/project/</link>
+    </image>
+    
+    <item>
+      <title>FPGA-Optimized Neural Architecture Search for Enhanced Hardware Efficiency (FONAS)</title>
+      <link>http://localhost:1313/project/fonas/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/fonas/</guid>
+      <description>&lt;p&gt;Searched for the set of efficient deep neural architectures (FPGANets) for image classification with two constraints: arithmetic intensity and latency for FPGA. This approach outperformed many existing networks in terms of both latency and accuracy on ImageNet-1k.&lt;/p&gt;
+&lt;!-- # FPGA-Optimized Neural Architecture Search for Enhanced Hardware Efficiency (FONAS)
+
+**Summary:**  
+Searched for the set of efficient deep neural architectures (FPGANets) for image classification with two constraints: arithmetic intensity and latency for FPGA. This approach outperformed many existing networks in terms of both latency and accuracy on ImageNet-1k.
+
+[Github: FONAS](https://github.com/FPGA-Vision/FONAS)
+
+## Project Work and Methodologies
+- Compressing EfficientNet-V2 to implement it on FPGA.
+- Leverage NAS techniques to automate the creation of task-specific neural networks targeting latency for FPGAs.
+- **Hardware Optimization:** Focusing on co-designing models and hardware to enhance efficiency and performance.
+
+## Hardware NAS Focus
+- **Optimization Goals:** Minimizing latency, maximizing accuracy, and efficient resource utilization on FPGA platforms.
+- **Architecture Sampling:** Generating diverse architectures meeting hardware constraints like latency and resource usage.
+- **Evaluation Metrics:** Assessing performance based on accuracy, inference speed, and resource utilization for optimal architecture selection.
+
+## Key Results and Findings
+- **Compressed EfficientNet-V2:** Implemented channel pruning to reduce EfficientNetV2’s channel count by 88%, resulting in a model that was 14 times smaller, 2.5 times faster in inference speed, had 14 times fewer parameters, and 2.5 times fewer MAC operations.
+- A **Latency dataset** for the Ultra96v2 FPGA board was constructed.
+- **Latency-aware networks** and networks with varying arithmetic intensity were discovered through an evolutionary search process.
+- The searched architectures (FPGANets) have better performance than most of the existing architectures in terms of the trade-off between latency and accuracy.
+
+![Results](Assets/res.png)
+
+## Future Directions
+- **Integration Challenges:** Implementing optimized architectures on FPGA platforms seamlessly.
+- **Validation Process:** Verifying the effectiveness of optimized architectures on Ultra96-v2 FPGA boards.
+- **Framework Refinement:** Further enhancing the HW-NAS pipeline for improved efficiency and real-time performance.
+
+This project aims to contribute significantly to the field of image classification by showcasing the benefits of HW-NAS and FPGA-based acceleration in achieving superior efficiency and real-time performance metrics. --&gt;</description>
+    </item>
+    
+    <item>
+      <title>EfficientNetV2 Optimization</title>
+      <link>http://localhost:1313/project/efficientnetprune/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/efficientnetprune/</guid>
+      <description>&lt;h2 id=&#34;efficientnetv2-optimization&#34;&gt;EfficientNetV2 Optimization&lt;/h2&gt;
+&lt;p&gt;Pruned 88% of channels of EfficientNetV2, resulting in a model that is 14x smaller, 2.5x faster, with 14x fewer parameters and just a 2% loss in accuracy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nepali Celeb Localized Face Dataset</title>
+      <link>http://localhost:1313/project/face/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/face/</guid>
+      <description>&lt;p&gt;The dataset contains images of 49 famous individuals from Nepal, including actors, actresses, singers, and social figures. The individuals vary in age, gender, and profession.&lt;/p&gt;
+&lt;p&gt;Potential uses for this dataset include face recognition, face detection, emotion recognition, and training machine learning models related to facial analysis.&lt;/p&gt;
+&lt;p&gt;For more details and to access the dataset, visit 
+.&lt;/p&gt;
+&lt;h2 id=&#34;procedure&#34;&gt;Procedure&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Images of the actors were collected from the internet using a Python script.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;bing_image_downloader&lt;/code&gt; package was used to download images.&lt;/li&gt;
+&lt;li&gt;Images were manually verified for quality and unsuitable ones were removed.&lt;/li&gt;
+&lt;li&gt;OpenCV library was used to detect faces and crop images to extract only the face region.&lt;/li&gt;
+&lt;li&gt;The cropped face images were resized to a standard size.&lt;/li&gt;
+&lt;li&gt;Processed images were saved in a separate directory with appropriate naming convention.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in the technical details, you can check out the dataset on Kaggle and review the Python scripts used for data collection and preprocessing.&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lung Vision: X-ray-based Classification of Pulmonary Diseases</title>
+      <link>http://localhost:1313/project/lungvision/</link>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/lungvision/</guid>
+      <description>&lt;p&gt;Prepared a dataset containing Normal, Tuberculosis (TB), and Pneumonia lung X-rays, and implemented a Deep Neural Network (DNN) to accurately classify these three categories. The challenge was to tackle the class imbalance inherent in the dataset.&lt;/p&gt;
+&lt;!-- [Github: Pulmonary Classifier](https://github.com/amitpant7/Pulmonary-Classifier)
+
+![Lung Vision](Assets/page1.png) --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Finance Portfolio Manager</title>
+      <link>http://localhost:1313/project/cs50/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/cs50/</guid>
+      <description>&lt;h2 id=&#34;finance-portfolio-manager&#34;&gt;Finance Portfolio Manager&lt;/h2&gt;
+&lt;p&gt;Developed a Flask web app for stock trading, enabling user registration, querying for stocks, buying, selling, viewing the portfolio, and their transaction history with security features.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

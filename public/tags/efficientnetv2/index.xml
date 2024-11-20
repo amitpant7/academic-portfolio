@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EfficientNetV2 | Amit Pant</title>
+    <link>http://localhost:1313/tags/efficientnetv2/</link>
+      <atom:link href="http://localhost:1313/tags/efficientnetv2/index.xml" rel="self" type="application/rss+xml" />
+    <description>EfficientNetV2</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>EfficientNetV2</title>
+      <link>http://localhost:1313/tags/efficientnetv2/</link>
+    </image>
+    
+    <item>
+      <title>EfficientNetV2 Optimization</title>
+      <link>http://localhost:1313/project/efficientnetprune/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/efficientnetprune/</guid>
+      <description>&lt;h2 id=&#34;efficientnetv2-optimization&#34;&gt;EfficientNetV2 Optimization&lt;/h2&gt;
+&lt;p&gt;Pruned 88% of channels of EfficientNetV2, resulting in a model that is 14x smaller, 2.5x faster, with 14x fewer parameters and just a 2% loss in accuracy.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
