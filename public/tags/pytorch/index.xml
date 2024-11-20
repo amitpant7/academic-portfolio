@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/pytorch/</link>
       <atom:link href="http://localhost:1313/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
     <description>PyTorch</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>PyTorch</title>
@@ -15,10 +15,9 @@
     <item>
       <title>Paper Replication from Scratch using PyTorch</title>
       <link>http://localhost:1313/project/paper-rep/</link>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/paper-rep/</guid>
-      <description>&lt;p&gt;This repository contains a collection of paper replications for various classification and object detection tasks, all implemented from scratch using PyTorch. Below, you&amp;rsquo;ll find a list of networks I&amp;rsquo;ve implemented, along with links to each respective repository. Additionally, I have pruned certain networks to enhance their real-time performance, allowing for a tunable trade-off between accuracy and efficiency.&lt;/p&gt;
-&lt;p&gt;Each implementation includes model definitions, custom loss functions, training and evaluation scripts, and visualizations.&lt;/p&gt;
+      <description>&lt;p&gt;Paper replications for various classification and object detection tasks, all implemented from scratch using PyTorch. Additionally, I have pruned certain networks to enhance their real-time performance, allowing for a tunable trade-off between accuracy and efficiency.&lt;/p&gt;
 &lt;!-- [Github: Paper Replication Repository](https://github.com/your-username/repository-link) --&gt;
 &lt;!-- ![Paper Replication](Assets/repo-image.png) --&gt;</description>
     </item>

@@ -12,7 +12,7 @@ design:
 sections:
   - block: resume-awards
     content:
-      username: ../../certs
+      username: ../certs
 
     design:
       view: article-grid

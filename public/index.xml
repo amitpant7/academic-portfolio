@@ -342,7 +342,7 @@ This project aims to contribute significantly to the field of image classificati
 
 
 
-&lt;div id=&#34;chart-437986521&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-572149638&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -360,7 +360,7 @@ This project aims to contribute significantly to the field of image classificati
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-437986521&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-572149638&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
