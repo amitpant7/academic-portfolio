@@ -37,6 +37,16 @@
     </item>
     
     <item>
+      <title>Paper Replication from Scratch using PyTorch</title>
+      <link>http://localhost:1313/project/paper-rep/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/paper-rep/</guid>
+      <description>&lt;p&gt;Paper replications for various classification and object detection tasks, all implemented from scratch using PyTorch. Additionally, I have pruned certain networks to enhance their real-time performance, allowing for a tunable trade-off between accuracy and efficiency.&lt;/p&gt;
+&lt;!-- [Github: Paper Replication Repository](https://github.com/your-username/repository-link) --&gt;
+&lt;!-- ![Paper Replication](Assets/repo-image.png) --&gt;</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
@@ -332,7 +342,7 @@ This project aims to contribute significantly to the field of image classificati
 
 
 
-&lt;div id=&#34;chart-825473961&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-437986521&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -350,7 +360,7 @@ This project aims to contribute significantly to the field of image classificati
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-825473961&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-437986521&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
