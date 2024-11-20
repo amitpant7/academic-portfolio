@@ -11,8 +11,6 @@ design:
 # Page sections
 sections:
   - block: resume-awards
-    content:
-      username: ../certs
 
     design:
       view: article-grid
