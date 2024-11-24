@@ -175,7 +175,7 @@ skills:
 
 languages:
   - name: Nepali
-    percent: 100
+    percent: 85
   - name: English
     percent: 75
   - name: Hindi
