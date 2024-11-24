@@ -197,4 +197,4 @@ awards:
 
 ---
 ## About Me
-I am a Computer Engineering Grauate from Institute of Engineering,  Thapathali Campus, Tribhuwan University . I am interested in Artificial Intelligence and currently looking for MS/Phd in AI or Computer Science.
+I am a Computer Engineering Grauate from Institute of Engineering,  Thapathali Campus, Tribhuwan University. I am interested in Artificial Intelligence and currently looking for MS/Phd in AI or Computer Science.
