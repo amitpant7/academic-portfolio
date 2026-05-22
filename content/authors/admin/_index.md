@@ -101,51 +101,49 @@ work:
       - Coursework: Data Mining, Image Processing, CNNs, RNNs, Transformers, NLP, LLMs, RL, MLOps, and Deployment.
 
 skills:
-  - name: Technical Skills
+  - name: Languages
     items:
       - name: Python
-        description: 'Primary language for ML, CV, and backend development.'
-        percent: 90
-        icon: code-bracket
-      - name: PyTorch & TensorFlow
-        description: 'End-to-end deep learning model development and training.'
-        percent: 90
-        icon: brain
-      - name: Computer Vision
-        description: 'OpenCV, pose estimation, object detection, action recognition.'
-        percent: 85
-        icon: chart-bar
-      - name: Signal Processing
-        description: 'FFT, Kalman filtering, noise reduction, spectral analysis.'
-        percent: 75
-        icon: chart-bar
       - name: C++
-        description: 'Deploying deep networks on edge hardware and FPGAs.'
-        percent: 70
-        icon: code-bracket
-      - name: Backend & MLOps
-        description: 'Django REST, FastAPI, Celery, PostgreSQL, Docker.'
-        percent: 70
-        icon: circle-stack
+      - name: C
+      - name: SQL
 
-  - name: Soft Skills
+  - name: ML & Deep Learning
     items:
-      - name: Problem-Solving
-        description: 'Tackling novel research and engineering challenges.'
-        percent: 90
-        icon: lightbulb
-      - name: Communication
-        description: 'Clear written and verbal communication with technical and non-technical audiences.'
-        percent: 85
-        icon: comment-dots
-      - name: Collaboration
-        description: 'Working effectively in cross-functional and remote teams.'
-        percent: 80
-        icon: users
-      - name: Time Management
-        description: 'Delivering freelance and research projects on schedule.'
-        percent: 80
-        icon: clock
+      - name: PyTorch
+      - name: TensorFlow · Keras
+      - name: Scikit-learn
+      - name: Weights & Biases
+      - name: NumPy · Pandas
+
+  - name: Computer Vision
+    items:
+      - name: OpenCV
+      - name: Pose Estimation
+      - name: Object Detection
+      - name: Action Recognition
+      - name: Graph Neural Networks
+
+  - name: Signal Processing
+    items:
+      - name: FFT & Spectral Analysis
+      - name: Kalman Filtering
+      - name: Time-series Analysis
+      - name: Noise Reduction
+
+  - name: Backend & MLOps
+    items:
+      - name: Django REST · FastAPI
+      - name: Celery · Redis
+      - name: PostgreSQL
+      - name: Docker
+
+  - name: Tools & Hardware
+    items:
+      - name: Linux · Shell Scripting
+      - name: Git & GitHub
+      - name: FPGA (Xilinx)
+      - name: C++ Inference
 
 hobbies:
   - name: Drumming
