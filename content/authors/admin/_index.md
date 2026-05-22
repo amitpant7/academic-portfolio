@@ -1,177 +1,165 @@
 ---
-# Display name
 title: Amit Raj Pant
 
-# Name pronunciation (optional)
-# name_pronunciation:  Amit Pant
-
-# Full name (for SEO)
 first_name: Amit Raj
 last_name: Pant
 
-# Status emoji
 status:
   icon: ☕️
 
-# Is this the primary user of the site?
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Role/position/tagline
-role: Computer Engineer
+role: Machine Learning Engineer
 
-# Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: IOE, Tribhuvan University
-    url: https://tcioe.edu.np/
+  - name: Freelance · Computer Vision & Deep Learning
+    url: ''
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'amitrajpant7@gmail.com'
+    url: 'mailto:amitrajpant7@gmail.com'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/amitpant7
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/amit-pant/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
+  - Computer Vision
   - Deep Learning
-  - Machine Learning
-  - Astrophysics
-  - Natural Language Processing
-  - EfficientML
+  - Robotics & AI
+  - Signal Processing
+  - Animal Biomechanics
+  - AI for Music
 
 education:
-  - area: Bachelor's in Computer Engineering
-    institution: Institute of Engineering, Thapathali Campus
-    date_start: 2019-10-01
-    date_end: 2024-04-01
-  #   summary: |
-  #     GPA: 3.8/4.0
+  - area: Bachelor of Computer Engineering
+    institution: Institute of Engineering, Thapathali Campus, Tribhuvan University
+    date_start: 2019-09-01
+    date_end: 2024-05-01
+    summary: |
+      79.71% aggregate. Coursework: Data Structures & Algorithms, Data Mining, Probability & Statistics, DBMS, Operating Systems, AI, Computer Networks.
 
-  #     Courses included:
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
- 
 work:
-  - position: Junior Machine Learning Engineer
+  - position: Freelance Deep Learning & Computer Vision Engineer
+    company_name: Upwork
+    company_url: 'https://www.upwork.com/'
+    company_logo: ''
+    date_start: 2024-12-01
+    date_end: ''
+    summary: |2-
+      **Computer Vision Scientist – Equine Biomechanics** *(Feb 2025 – Present)*
+      - Designed and developed an end-to-end CV system for animal motion analysis, from data ingestion and model training to scalable inference and deployment.
+      - Built pose estimation and action recognition models using graph neural networks for skeletal spatial reasoning and transformer architectures for long-range temporal dynamics.
+      - Engineered signal processing pipelines for noise mitigation, filtering, trend elimination, and normalization of skeletal trajectory data.
+      - Architected backend ML infrastructure using Django REST and FastAPI; built scalable video inference pipelines with Celery and Redis.
+
+      **Microscope Offset Prediction – Refactoring & Optimization** *(1 month)*
+      - Refactored and retrained an MLP-based regression pipeline, resolving critical data leakage issues and improving performance with a new CNN architecture.
+
+  - position: Machine Learning Engineer (Part-Time)
+    company_name: LogicTronix
+    company_url: 'https://logictronix.com/'
+    company_logo: ''
+    date_start: 2025-01-01
+    date_end: 2025-06-01
+    summary: |2-
+      - Investigated open-source pose architectures for event-based data and DPU compatibility; developed, trained, and optimized a pose detection network for real-time FPGA deployment.
+      - Designed an automatic annotation system via RGB conversion and fine-tuning on RGB pose models, achieving 10× faster annotation speed.
+
+  - position: Junior Machine Learning Engineer (Full-Time)
     company_name: LogicTronix
     company_url: 'https://logictronix.com/'
     company_logo: ''
     date_start: 2024-08-01
-    date_end: ''
+    date_end: 2025-02-01
     summary: |2-
-      - Developed a real-time FPGA-based object detection system that achieved 110 FPS on event data by designing a custom network and optimizing inference through threading, leading to 81\% faster inference than conventional methods.
-      - Evaluated and implemented different machine learning models for identifying operational anomalies in live motor systems.
+      - Developed a real-time FPGA-based object detection system achieving 110 FPS on event data — 81% faster than conventional methods.
+      - Evaluated and implemented ML models for identifying operational anomalies in live motor systems.
       - Implemented and reviewed Spiking Neural Networks (SNNs) for event-based vision applications.
 
-
-  - position: Machine Learning Internship
+  - position: Machine Learning Intern
     company_name: LogicTronix
     company_url: 'https://logictronix.com/'
     company_logo: ''
     date_start: 2024-05-01
     date_end: 2024-08-01
     summary: |2-
-      - Developed a 96\% accurate FPGA-based real-time passenger counting system with head tracking, including dataset preparation.
+      - Developed a 96% accurate FPGA-based real-time passenger counting system with head tracking.
+      - Reduced deep learning inference time by up to 90% via pruning, quantization, and knowledge distillation.
+      - Implemented and trained YOLO family from scratch (YOLOv2–v6) on PyTorch.
 
-      - Reduced inference time of deep learning models by upto 90\% through pruning, quantization, and knowledge distillation.
+  - position: AI Fellowship
+    company_name: Fusemachines
+    company_url: 'https://fusemachines.com/'
+    company_logo: ''
+    date_start: 2023-09-01
+    date_end: 2024-03-01
+    summary: |2-
+      - Developed a Nepali Automatic Speech Recognition system using Whisper, capable of recognising multiple Nepali accents, achieving WER below 30.
+      - Coursework: Data Mining, Image Processing, CNNs, RNNs, Transformers, NLP, LLMs, RL, MLOps, and Deployment.
 
-      - Implemented and trained YOLO object detection family from scratch (YOLOv2, YOLOv3, YOLOv4, and YOLOv6) on PyTorch.
-
-  # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: Proficiency in Python for data science, ML.
-        percent: 80
+        description: 'Primary language for ML, CV, and backend development.'
+        percent: 90
         icon: code-bracket
-      - name: Data Science
-        description: Expertise in data preprocessing, analysis, and model development using libraries like Pandas, NumPy, and Scikit-learn.
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: Database querying, design, and optimization.
-        percent: 40
-        icon: circle-stack
-      - name: C++
-        description: 'Experince in deploying deep networks in C++ for edge computing.'
-        percent: 70
-        icon: code-bracket
-      - name: Flask
-        description: Experience in developing web applications with Flask.
-        percent: 70
-        icon: code-bracket
-      - name: PyTorch & TensorFlow 
-        description: Experince in devloping deep learning models from scratch PyTorch and TensorFlow.
+      - name: PyTorch & TensorFlow
+        description: 'End-to-end deep learning model development and training.'
         percent: 90
         icon: brain
-
-      - name: HTML/CSS/JavaScript
-        description: Some experience in devloping front-end.
+      - name: Computer Vision
+        description: 'OpenCV, pose estimation, object detection, action recognition.'
+        percent: 85
+        icon: chart-bar
+      - name: Signal Processing
+        description: 'FFT, Kalman filtering, noise reduction, spectral analysis.'
+        percent: 75
+        icon: chart-bar
+      - name: C++
+        description: 'Deploying deep networks on edge hardware and FPGAs.'
         percent: 70
-        icon: html5
-      - name: Docker
-        description: Experience in containerizing applications with Docker for deployment and scalability.
-        percent: 60
-        icon: docker
-      - name: Git & GitHub
-        description: Proficient in version control using Git and GitHub for collaborative software development.
-        percent: 80
-        icon: git
-  
+        icon: code-bracket
+      - name: Backend & MLOps
+        description: 'Django REST, FastAPI, Celery, PostgreSQL, Docker.'
+        percent: 70
+        icon: circle-stack
+
   - name: Soft Skills
     items:
-      - name: Communication
-        description: Good verbal and written communication skills.
-        percent: 85
-        icon: comment-dots
       - name: Problem-Solving
-        description: Able to solve complex challenges in software development and data science.
+        description: 'Tackling novel research and engineering challenges.'
         percent: 90
         icon: lightbulb
+      - name: Communication
+        description: 'Clear written and verbal communication with technical and non-technical audiences.'
+        percent: 85
+        icon: comment-dots
       - name: Collaboration
-        description: Experience working in cross-functional teams and collaborating with developers, data scientists, and product managers.
+        description: 'Working effectively in cross-functional and remote teams.'
         percent: 80
         icon: users
       - name: Time Management
-        description: Efficient in managing multiple tasks and meeting deadlines in fast-paced environments.
-        percent: 75
+        description: 'Delivering freelance and research projects on schedule.'
+        percent: 80
         icon: clock
-      - name: Leadership
-        description: Able to guide teams toward achieving goals, mentor junior developers, and maintain a positive working environment.
-        percent: 70
-        icon: user-tie
 
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Reading
-        description: ''
-        icon: books
-      - name: Guitar
-        description: ''
-        icon: guitar
-      - name: Chess
-        description: ''
-        icon: chess 
+hobbies:
+  - name: Drumming
+    description: 'Learning percussion & rhythms'
+    icon: drum
+  - name: Reading
+    description: 'Science, philosophy & tech'
+    icon: books
+  - name: Learning German
+    description: 'Currently at beginner level'
+    icon: language
+  - name: Offroad Motorbiking
+    description: 'Adventure rides'
+    icon: motorbike
 
 languages:
   - name: Nepali
@@ -180,21 +168,36 @@ languages:
     percent: 75
   - name: Hindi
     percent: 50
+  - name: German
+    percent: 15
 
 awards:
-  - title: LOCUS 2024 Winner
-    url: https://example.com
-    date: '2023-11-25'
+  - title: LOCUS 2024 Winner — Hardware Category
+    date: '2024-01-25'
     awarder: LOCUS, IOE Pulchowk
     summary: |
-      LOCUS is national competition/event for Electrical , Electronics and Computer Engineering Students held anually in IOE Pulchowk Campus.
-  - title: Logictronix Annual FPGA Project Grant Winner
-    url: https://example.com
+      National competition for Electrical, Electronics, and Computer Engineering students at IOE Pulchowk Campus.
+  - title: Final Year Project Grant Winner
     date: '2023-07-01'
     awarder: Logictronix Ltd.
     summary: |
-      Awarded for excellence in FPGA-based project development
+      Awarded for excellence in FPGA-based neural architecture search project development.
+  - title: Docsumo Dataverse Winner
+    date: '2024-06-01'
+    awarder: Docsumo
+    summary: |
+      Won data analysis challenge at Docsumo Dataverse 2024.
+  - title: DeerHack Hackathon Participant
+    date: '2023-01-01'
+    awarder: DeerHack
+    summary: |
+      Participated building a recommendation system.
 
 ---
 ## About Me
-I am a Computer Engineering Grauate from Institute of Engineering,  Thapathali Campus, Tribhuwan University. I am interested in Artificial Intelligence and currently looking for MS/Phd in AI or Computer Science.
+
+I am a Machine Learning Engineer specialising in Computer Vision and Deep Learning, with a background in Computer Engineering from the Institute of Engineering, Thapathali Campus, Tribhuvan University.
+
+I currently freelance as a CV/DL Engineer on Upwork, focusing on end-to-end computer vision systems for equine and animal biomechanics — including pose estimation, graph neural networks, signal processing pipelines, and scalable ML backend infrastructure.
+
+I am exploring MS/PhD opportunities in Robotics, AI, or Signal Processing, with a focus on applying machine learning to real-world physical and biological systems.
