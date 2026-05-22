@@ -4,7 +4,8 @@
 {{ $btn := $block.content.button }}
 
 {{/* Strip heading from About Me content */}}
-{{ $bio := $author.Content | replaceRE `<h[1-9][^>]*>[^<]*</h[1-9]>` "" | strings.TrimSpace }}
+{{ $bioStripped := $author.Content | replaceRE `<h[1-9][^>]*>[^<]*</h[1-9]>` "" }}
+{{ $bio := strings.TrimSpace $bioStripped }}
 
 <div class="w-full max-w-5xl mx-auto px-6 sm:px-8">
   <div class="flex flex-col-reverse lg:flex-row items-start gap-10 lg:gap-16">
